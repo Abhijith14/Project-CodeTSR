@@ -1,6 +1,5 @@
 import openai
 import os
-from github_to_code import code
 import re
 
 def output(prompt):

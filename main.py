@@ -1,7 +1,7 @@
 from davinci import output as davinci_output
 from linkedin_api import output as linkedin_output
 
-prompt = ("A LinkedIn post on one interesting python hack to make your life easier. Include hash tags.")
+prompt = ("A LinkedIn post on one interesting python hack to make your life easier. No code snippets. Include hash tags.")
 
 answer = davinci_output(prompt)
 

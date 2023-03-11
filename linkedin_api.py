@@ -1,5 +1,6 @@
 import requests
 import json
+import os
 
 
 def output(post_text, image_url=None):

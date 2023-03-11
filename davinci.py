@@ -4,7 +4,7 @@ import re
 
 def output(prompt):
 
-    openai.api_key = os.environ["openai_token"]
+    openai.api_key = os.environ["OPENAI_TOKEN"]
 
 
     # Set the model and prompt

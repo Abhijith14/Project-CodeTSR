@@ -4,7 +4,7 @@ import json
 
 def output(post_text, image_url=None):
     # Set the access token and the post text
-    access_token = os.environ["linkedin_token"] # replace with your LinkedIn API access token
+    access_token = os.environ["LINKEDIN_TOKEN"] # replace with your LinkedIn API access token
 
 
     # Set the API endpoint and headers
